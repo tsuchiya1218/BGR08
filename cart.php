@@ -26,7 +26,6 @@
                     <th>タイトル</th>
                     <th>価格</th>
                     <th>商品詳細</th>
-                    <th>個数</th>
                     <th>削除する</th>
                 </tr>
                 <tr>
@@ -39,12 +38,6 @@
                     <td>12800</td>
                     <td><a href="detail.php">詳細</a></td>
                     <td>
-                        <form method="POST" action="cartgoods_edit.php">
-                            個数:<input type="text" name="qty" value="1">
-                            <input type="submit" value="変更する">
-                        </form>
-                    </td>
-                    <td>
                         <form method="POST" action="cartgoods_delete.php">
                             <input type="hidden" name="商品" value="商品">
                             <input type="submit" value="カートから削除する">
@@ -56,12 +49,6 @@
                     <td>アーマードコア</td>
                     <td>12800</td>
                     <td><a href="detail.php">詳細</a></td>
-                    <td>
-                        <form method="POST" action="cartgoods_edit.php">
-                            個数:<input type="text" name="qty" value="2">
-                            <input type="submit" value="変更する">
-                        </form>
-                    </td>
                     <td>
                         <form method="POST" action="cartgoods_delete.php">
                             <input type="hidden" name="商品" value="商品">

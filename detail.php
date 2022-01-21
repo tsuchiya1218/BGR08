@@ -26,8 +26,6 @@
 				<div class="yokonarabi">
 				<p class="left">ソフト名:サンプル名<br>説明文:サンプル文</p>
 				<form method="post" action="cart.php">
-					<p class="right"><input type="radio" name="example" value="ダウンロード版">ダウンロード版<br>
-					<input type="radio" name="example" value="パッケージ版" checked>パッケージ版</p>
 					<input type="submit" value="購入に進む">
 				</form>
 			</div>

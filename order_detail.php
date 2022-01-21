@@ -21,9 +21,9 @@
 		<main>
 			<h2>注文履歴画面</h2>
             <table border="1">
-                <tr><th>商品名</th><th>価格</th><th>購入方法</th><th>購入個数</th></tr>
-                <tr><td>商品サンプル01</td><td>24800</td><td>3</td><td><a href="detail.php">詳細</a></td></tr>
-                <tr><td>商品サンプル02</td><td>2400</td><td>1</td><td><a href="detail.php">詳細</a></td></tr>
+                <tr><th>商品名</th><th>価格</th></tr>
+                <tr><td>商品サンプル01</td><td>24800</td><td><a href="detail.php">詳細</a></td></tr>
+                <tr><td>商品サンプル02</td><td>2400</td><td><a href="detail.php">詳細</a></td></tr>
             </table>
 		<footer>
 				<p class="footerline"></p>

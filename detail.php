@@ -25,7 +25,7 @@
 			<p>値段:サンプル値段</p>
 				<div class="yokonarabi">
 				<p class="left">ソフト名:サンプル名<br>説明文:サンプル文</p>
-				<form method="post" action="cart.php">
+				<form method="post" action="addcart_complete.php">
 					<input type="submit" value="購入に進む">
 				</form>
 			</div>

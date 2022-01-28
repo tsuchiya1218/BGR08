@@ -42,6 +42,7 @@ h2{
     background: steelblue;
     padding: 0;
     text-align: center;
+    height: 10vh;
 }
 .gnav-list-1 li{
     display: inline-block;

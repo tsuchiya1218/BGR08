@@ -25,9 +25,9 @@
 			<p>値段:サンプル値段</p>
 				<div class="yokonarabi">
 				<p class="left">ソフト名:サンプル名<br>説明文:サンプル文</p>
-				<form method="post" action="addcart_complete.php">
+				<form method="post" action="version_confirm.php">
 					<p>購入方法</p>
-					<p>パッケージ:<input type="radio" name="version" value="package">
+					<p>パッケージ:<input type="radio" name="version" value="package" checked>
 					ダウンロード:<input type="radio" name="version" value="download"></p>
 					<input type="submit" value="購入に進む">
 				</form>

@@ -29,7 +29,7 @@
 					<p>購入方法</p>
 					<p>パッケージ:<input type="radio" name="version" value="package" checked>
 					ダウンロード:<input type="radio" name="version" value="download"></p>
-					<input type="submit" value="購入に進む">
+					<input type="submit" value="購入へ進む">
 				</form>
 			</div>
 		</main>

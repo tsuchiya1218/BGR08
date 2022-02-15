@@ -27,6 +27,7 @@
                     <th>価格</th>
                     <th>商品詳細</th>
                     <th>削除する</th>
+                    <th>個数</th>
                 </tr>
                 <tr>
                     <td>
@@ -43,6 +44,12 @@
                             <input type="submit" value="カートから削除する">
                         </form>
                     </td>
+                    <td>
+                        <form method="POST" action="change_qty.php">
+                            <input type="number" name="qty" value="5">
+                            <input type="submit" value="個数を変更する">
+                        </form>
+                    </td>
                 </tr>
                 <tr>
                     <td><img src="./img/Jtendosoftsample02.img"/></td>
@@ -55,12 +62,18 @@
                             <input type="submit" value="カートから削除する">
                         </form>
                     </td>
+                    <td>
+                        <form method="POST" action="change_qty.php">
+                            <input type="number" name="qty" value="5">
+                            <input type="submit" value="個数を変更する">
+                        </form>
+                    </td>
                 </tr>
             </table>
             <p>小計:38400</p>
             <p>送料:200</p>
             <p>購入金額:38600</p>
-            <form method="POST" action="payment.php">
+            <form method="POST" action="delivery_confirm.php">
                 <input type="submit" value="購入する">
             </form>
             <button type="button" onclick="history.back()">戻る</button>

@@ -4,7 +4,7 @@
         <link href="./css/common.css" rel="stylesheet" type="text/css">
         <link href="./css/imgsize.css" rel="stylesheet" type="text/css">
         <meta charset="UTF-8">
-        <title>ート</title>
+        <title>カート</title>
     </head>
     <body class="center">
         <header>

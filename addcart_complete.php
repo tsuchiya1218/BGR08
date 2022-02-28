@@ -24,8 +24,8 @@
 	    	<a herf="cart.php"></a>
 		    <h2><p class="title">追加完了</p></h2>
 		    <p>カート追加完了しました</p>
-            <input type="button" onClick="location.href='cart.php'" value="カート">
-            <input type="button" onClick="location.href='software.php'" value="商品検索画面">
+            <input type="button" onClick="location.href='cart.php'" value="カートを見る">
+            <input type="button" onClick="location.href='software.php'" value="商品検索を続ける">
         </main>
 		<footer>
 				<p class="footerline"></p>

@@ -46,13 +46,13 @@
                 <tr>
                     <td><img src="./img/Jtendosoftsample01.img" width="100px" height="150px"/></td>
                     <td>ダクソ</td>
-                    <td>12800</td>
+                    <td>12800円</td>
                     <td><a href="detail.php">詳細</a></td>
                 </tr>
                 <tr>
                     <td><img src="./img/Jtendosoftsample02.img" width="100px" height="150px"/></td>
                     <td>アーマードコア</td>
-                    <td>12800</td>
+                    <td>12800円</td>
                     <td><a href="detail.php">詳細</a></td>
                 </tr>
             </table>

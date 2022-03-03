@@ -25,21 +25,29 @@
             <tr>
                 <th>商品名</th>
                 <th>価格</th>
+                <th>個数</th>
+                <th>小計</th>
             </tr>
             <tr>
                 <td>商品名サンプル1</td>
-                <td>1980</td>
+                <td>1980円</td>
+                <th>3</th>
+                <th>5940円</th>
             </tr>
             <tr>
                 <td>商品名サンプル2</td>
-                <td>198</td>
+                <td>198円</td>
+                <th>4</th>
+                <th>792円</th>
             </tr>
             <tr>
                 <td>商品名サンプル3</td>
-                <td>9800</td>
+                <td>9800円</td>
+                <th>5</th>
+                <th>49000円</th>
             </tr>
         </table>
-        <p>合計金額:11978円</p>
+        <p>合計金額:55732円</p>
         <h3>・支払方法</h3>
         <p>クレジットカード払い</p>
         <form method="POST" action="order_complete.php">

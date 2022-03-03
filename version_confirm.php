@@ -3,6 +3,6 @@
     if($version=="download"){
         header('Location: payment.php');
     }else{
-        header('Location: addcart_complete.php');
+        header('Location: addcart_confirm.php');
     }
 ?>

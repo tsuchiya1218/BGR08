@@ -34,7 +34,7 @@
                     <td>
                         <div>
                             <img src="./img/Jtendosoftsample01.img">
-    </div>
+                        </div>
                     </td>
                     <td>ダクソ</td>
                     <td>12800円</td>

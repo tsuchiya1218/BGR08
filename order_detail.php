@@ -21,9 +21,9 @@
 		<main>
 			<h2>注文履歴画面</h2>
             <table border="1">
-                <tr><th>商品名</th><th>価格</th><th></th><th>商品詳細</th><th>商品画像</th><th>個数</th><th>小計</th></tr>
-                <tr><td>商品サンプル01</td><td>24800円</td><td><a href="detail.php">詳細</a></td><th></th><th>5</th><th>124000円</th></tr>
-                <tr><td>商品サンプル02</td><td>2400円</td><td><a href="detail.php">詳細</a></td><th></th><th>3</th><th>7200円</th></tr>
+                <tr><th>商品名</th><th>価格</th><th>商品詳細</th><th>商品画像</th><th>個数</th><th>小計</th></tr>
+                <tr><td>商品サンプル01</td><td>24800円</td><td><a href="detail.php">詳細</a></td><td><img src="./img/Jtendosoftsample01.img" width="50px" height="75px"/></td><td>5</td><td>124000円</td></tr>
+                <tr><td>商品サンプル02</td><td>2400円</td><td><a href="detail.php">詳細</a></td><td><img src="./img/Jtendosoftsample01.img" width="50px" height="75px"/></td><td>3</td><td>7200円</td></tr>
             </table>
 			<p>合計金額:131200円</P>
 		<footer>

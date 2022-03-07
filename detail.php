@@ -1,3 +1,8 @@
+<?php
+	require_once("DB.php");
+	$g_id = $_GET['g_id'];
+	require_once("goods_detail.php");
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -21,17 +26,23 @@
 		</header>
 		<main>
 			<h2>ソフト詳細画面</h2>
-			<p><img src="./img/Jtendosoftsample01.img" width="250px" height="300px"/></p>
-			<p>値段:サンプル値段</p>
-				<div class="yokonarabi">
-				<p class="left">ソフト名:サンプル名<br>説明文:サンプル文</p>
-				<form method="post" action="version_confirm.php">
-					<p>購入方法</p>
-					<p>パッケージ:<input type="radio" name="version" value="package" checked>
-					ダウンロード:<input type="radio" name="version" value="download"></p>
-					<input type="submit" value="購入に進む">
-				</form>
-			</div>
+			<?php
+				foreach($array as $value){
+					echo"<p><img src=\"./img/{$value["g_image"]}\" width=\"250px\" height=\"300px\"/></p>";
+					echo"<p>値段:{$value["g_price"]}円</p>";
+					echo"<div class=\"yokonarabi\">";
+					echo"<p class=\"left\">ソフト名:{$value["g_name"]}<br>説明文:{$value["g_detail"]}</p>";
+				}
+				$g_id = substr($g_id,-3);
+			?>
+						<form method="post" action="version_confirm.php">
+							<p>購入方法</p>
+							<p>パッケージ:<input type="radio" name="version" value="package" checked>
+							ダウンロード:<input type="radio" name="version" value="download"></p>
+							<input type="hidden" name="g_id" value="<?=$g_id?>">
+							<input type="submit" value="購入に進む">
+						</form>
+					</div>
 		</main>
 		<footer>
 				<p class="footerline"></p>

@@ -1,3 +1,10 @@
+<?php
+	$g_id = $_POST['g_id'];
+	$qty = $_POST['qty'];
+	$c_code = 1;
+	require_once("DB.php");
+	require_once("addcart.php");
+?>
 <!DOCTYPE html>
 	<html lang="ja">
 	<head>
@@ -24,8 +31,8 @@
 	    	<a herf="cart.php"></a>
 		    <h2><p class="title">追加完了</p></h2>
 		    <p>カート追加完了しました</p>
-            <input type="button" onClick="location.href='cart.php'" value="カートを見る">
-            <input type="button" onClick="location.href='software.php'" value="商品検索を続ける">
+            <input type="button" onClick="location.href='cart.php'" value="カート">
+            <input type="button" onClick="location.href='software.php'" value="商品検索画面">
         </main>
 		<footer>
 				<p class="footerline"></p>

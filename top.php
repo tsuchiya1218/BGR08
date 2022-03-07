@@ -1,3 +1,8 @@
+<?php
+    session_start();
+    $c_code = 1;
+	$_SESSION["c_code"] = $c_code;
+?>
 <!DOCTYPE html>
 	<html lang="ja">
 	<head>

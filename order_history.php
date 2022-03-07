@@ -22,9 +22,9 @@
 			<h2>注文履歴画面</h2>
             <table border="1">
                 <tr><th>注文番号</th><th>購入額</th><th>購入日</th></tr>
-                <tr><td>001</td><td>34500</td><td>2022/01/21</td><td><a href="order_detail.php">注文詳細</a></td></tr>
-                <tr><td>002</td><td>34500</td><td>2022/01/21</td><td><a href="order_detail.php">注文詳細</a></td></tr>
-                <tr><td>003</td><td>34500</td><td>2022/01/21</td><td><a href="order_detail.php">注文詳細</a></td></tr>
+                <tr><th>001</th><td>34500円</td><td>2022/01/21</td><td><a href="order_detail.php">注文詳細</a></td></tr>
+                <tr><th>002</th><td>34500円</td><td>2022/01/21</td><td><a href="order_detail.php">注文詳細</a></td></tr>
+                <tr><th>003</th><td>34500円</td><td>2022/01/21</td><td><a href="order_detail.php">注文詳細</a></td></tr>
             </table>
 		<footer>
 				<p class="footerline"></p>

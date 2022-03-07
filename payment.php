@@ -21,7 +21,7 @@
         <main>
             <h2>支払方法選択画面</h2>
                 <form method="POST" action="order_confirm.php">
-                    <p>クレジットカード払い<input type="radio" name="payment" value="credit">代金引換<input type="radio" name="payment" value="CoD"></p>
+                    <p>クレジットカード払い<input type="radio" name="payment" value="credit" checked>代金引換<input type="radio" name="payment" value="CoD"></p>
                     <input type="submit" value="購入方法を決定する">
                 </form>
             <button type="button" onclick="history.back()">戻る</button>

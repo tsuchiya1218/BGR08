@@ -1,7 +1,3 @@
-<?php
-    
-    require_once("sort.php");
-?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -24,20 +20,20 @@
 		</header>
         <main>
             <h2>発売中のソフト</h2>
-            <form method="POST" action="software.php">
+            <form method="POST" action="soft.php">
                 <font color="#3f5170">ゲームソフト名</font><input type="text" name="softname"><br>
                 <font color="#3f5170">絞り込み</font>
-                全年齢対象<input type="checkbox" name="searchrate" value="18">
-                Jtendoソフト<input type="checkbox" name="searchJtendo" value="Jtendo">
-                オンライン対応<input type="checkbox" name="searchonline" value="possible"><br>
+                全年齢対象<input type="checkbox" name="searchrate" value="A">
+                Jtendoソフト<input type="checkbox" name="searchsoft" value="Jsoft">
+                オンライン対応<input type="checkbox" name="searchonline" value="online"><br>
                 <font color="#3f5170">ソート</font>
                 <select name="sort">
-                    <option value="hprice">高価格順</option>
-                    <option value="rprice">低価格順</option>
-                    <option value="newsoft">新しいソフト</option>
-                    <option value="oldsoft">古いソフト</option>
+                <option value="ranking">ランキング</option>
+                <option value="hprice">高価格順</option>
+                <option value="rprice">低価格順</option>
+                <option value="newsoft">新しいソフト</option>
+                <option value="oldsoft">古いソフト</option>
                 </select><br>
-                <input type="hidden" name="searched" value="1">
                 <input type="submit" value="この条件で検索">
             </form>
             <table class="center">
@@ -47,16 +43,18 @@
                     <th>価格</th>
                     <th>商品詳細</th>
                 </tr>
-                <?php
-                    foreach($array as $value){
-                        echo "<tr>\n";
-                        echo " <td><img src=\"./img/{$value["g_image"]}\" width=\"100px\" height=\"150px\"/></td>\n";
-                        echo " <td>{$value["g_name"]}</td>\n";
-                        echo " <td>{$value["g_price"]}円</td>\n";
-                        echo " <td><a href=\"detail.php?g_id={$value["g_id"]}\">詳細</a></td>\n";
-                        echo "</tr>\n";
-                    }
-                ?>
+                <tr>
+                    <td><img src="./img/Jtendosoftsample01.img" width="100px" height="150px"/></td>
+                    <td>ダクソ</td>
+                    <td>12800円</td>
+                    <td><a href="detail.php">詳細</a></td>
+                </tr>
+                <tr>
+                    <td><img src="./img/Jtendosoftsample02.img" width="100px" height="150px"/></td>
+                    <td>アーマードコア</td>
+                    <td>12800円</td>
+                    <td><a href="detail.php">詳細</a></td>
+                </tr>
             </table>
             <button type="button" onclick="history.back()">戻る</button>
         </main>

@@ -29,17 +29,18 @@
                     <th>タイトル</th>
                     <th>価格</th>
                     <th>商品詳細</th>
-                    <th>削除する</th>
+                    <th>商品を削除する</th>
                     <th>個数</th>
+                    <th>小計</th>
                 </tr>
                 <tr>
                     <td>
                         <div>
                             <img src="./img/Jtendosoftsample01.img">
-    </div>
+                        </div>
                     </td>
                     <td>ダクソ</td>
-                    <td>12800</td>
+                    <td>12800円</td>
                     <td><a href="detail.php">詳細</a></td>
                     <td>
                         <form method="POST" action="cartgoods_delete.php">
@@ -52,12 +53,15 @@
                             <input type="number" name="qty" value="5">
                             <input type="submit" value="個数を変更する">
                         </form>
+                    </td>
+                    <td>
+                        小計:64000円
                     </td>
                 </tr>
                 <tr>
                     <td><img src="./img/Jtendosoftsample02.img"/></td>
                     <td>アーマードコア</td>
-                    <td>12800</td>
+                    <td>12800円</td>
                     <td><a href="detail.php">詳細</a></td>
                     <td>
                         <form method="POST" action="cartgoods_delete.php">
@@ -71,9 +75,12 @@
                             <input type="submit" value="個数を変更する">
                         </form>
                     </td>
+                    <td>
+                        小計:64000円
+                    </td>
                 </tr>
             </table>
-            <p>小計:38400</p>
+            <p></p>
             <p>送料:200</p>
             <p>購入金額:38600</p>
             <form method="POST" action="delivery_confirm.php">

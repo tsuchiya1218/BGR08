@@ -21,6 +21,7 @@
 		</header>
 		<main>
 			<h2>届け先確認画面</h2>
+			<p>届け先を確認し確定ボタンを押すか、項目を入力し変更ボタンを押してください、</p>
             <form method="POST" action="delivery_confirm.php">
                 <p>名前:T部 R星</p>
                 <p>住所:宮城県仙台市青葉区本町3丁目8番1号</p>

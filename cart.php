@@ -1,3 +1,6 @@
+<?php
+    require_once("DB.php");
+?>
 <!DOCTYPE html>
 <html>
     <head>

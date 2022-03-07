@@ -27,10 +27,16 @@
 			</nav>
 		</header>
         <main>
-    		<a herf="top.php"></a>
-	    	<a herf="cart.php"></a>
-		    <h2><p class="title">追加完了</p></h2>
-		    <p>カート追加完了しました</p>
+		    
+			<?php
+				if(empty($count)){
+					echo"<h2><p class=\"title\">追加完了</p></h2>";
+					echo"<p>カート追加完了しました</p>";
+				}else {
+					echo"<h2><p class=\"title\">商品が重複しています</p></h2>";
+					echo"<p>カートにすでに追加されています。</p>";
+				}
+			?>
             <input type="button" onClick="location.href='cart.php'" value="カート">
             <input type="button" onClick="location.href='software.php'" value="商品検索画面">
         </main>
